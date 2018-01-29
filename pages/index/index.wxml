@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{hasUserInfo && canIUse}}">
+      <image bindtap="gotoMine" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </block>
+  </view>
+  <view class="image-box">
+    <image class="image-flow" mode="widthFix" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=384294513,3198692281&fm=27&gp=0.jpg"></image>
+    <image class="image-flow"   mode="widthFix" src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1725491404,1901435734&fm=27&gp=0.jpg'></image>
+    <image class="image-flow"  mode="widthFix" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3699333020,2000962123&fm=27&gp=0.jpg"></image>
+  </view>
+  <view class="bottom-button">
+    <button class="btn-tofind" bindtap="gotoLostPage" > 找人 </button>
+  </view>
+</view>

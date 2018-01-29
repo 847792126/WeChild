@@ -1,0 +1,41 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 40rpx;
+  margin-bottom: 2rpx;
+}
+
+.userinfo-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 1rpx;
+  border-radius: 50%;
+}
+
+.image-box {
+  width: 100%;
+  margin-top: 2rpx;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-flow {
+  border-radius: 0.2rem;
+  width: 48%;
+  margin:1%;
+}
+
+.bottom-button{
+  position: absolute;
+  bottom: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-tofind{
+  width: 300rpx;
+}
